@@ -40,4 +40,17 @@ merged_df = merged_df[merged_df["Alcohol Regulation"] != "No data"]
 merged_df["Alcohol Regulation"] = merged_df["Alcohol Regulation"].replace("Subnational", "Yes")
 merged_df["Alcohol Regulation"] = merged_df["Alcohol Regulation"].replace("Total ban", "Yes")
 
+#Convert object columns to numeric where applicable
+object_cols = merged_df.select_dtypes(include=['object']).columns
+
+for col in object_cols:
+    if col not in ["Country", "Alcohol Regulation", "Tobacco Regulation", "Alcohol Total Per Capita Consumption", "Tobacco Use Estimate"]:
+        merged_df[col] = merged_df[col].astype(str).str.replace(r"[,%$ ]","",regex=True).astype(float)
+
+merged_df["Alcohol Total Per Capita Consumption"] = merged_df["Alcohol Total Per Capita Consumption"].astype(str).str.split(" ").str[0].astype(float)
+
+merged_df["Tobacco Use Estimate"] = merged_df["Tobacco Use Estimate"].astype(str).str.split(" ").str[0].astype(float)
+
+
+print(merged_df.dtypes)
 merged_df.to_csv("./Processed Data/merged_data.csv", index=False)
