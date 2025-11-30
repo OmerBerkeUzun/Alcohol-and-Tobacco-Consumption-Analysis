@@ -78,3 +78,18 @@ Plans on how to collect the data.
 5. **Tobacco control: Monitor: national tobacco control programmes**
 * Filtered the dataset rows to the latest year and the features to `Country (Renamed from Location)`, `Government objectives on tobacco control exist`.
 * Downloaded the dataset through the WHO website.
+
+## Hypothesis
+The main hypothesis are:
+1. There is a correlation between socioeconomic factors and alcohol and tobacco usage
+2. The regulations affect the usage of alcohol and tobacco
+
+## Methodology and Analysis steps
+The planned steps to answer the research questions.
+* The datasets are collected as described above.
+* The datasets are merged, cleaned of unawanted values, formatted and prepared for analysis with the usage of merger.py.
+* Exploratory data analysis is performed on the merged dataset.
+   * Statistical analysis and visualization is performed on the dataset.
+* Various hypothesis tests are performed to answer the main hypothesis.
+* Machine learning methods are applied to the dataset to produce models that can help answer the research questions.
+* The findings are analyzed and conclusions are made.
