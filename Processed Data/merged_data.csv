@@ -1,5 +1,4 @@
-Country,"Density
-(P/Km2)",Birth Rate,CPI,CPI Change (%),GDP,Gross primary education enrollment (%),Gross tertiary education enrollment (%),Life expectancy,Total tax rate,Unemployment rate,Urban_population,Alcohol Total Per Capita Consumption,Tobacco Use Estimate,Tobacco Regulation,Alcohol Regulation
+Country,Density (P/Km2),Birth Rate,CPI,CPI Change (%),GDP,Gross primary education enrollment (%),Gross tertiary education enrollment (%),Life expectancy,Total tax rate,Unemployment rate,Urban_population,Alcohol Total Per Capita Consumption,Tobacco Use Estimate,Tobacco Regulation,Alcohol Regulation
 Afghanistan,60.0,32.49,149.9,2.3,19101353833.0,104.0,9.7,64.5,71.4,11.12,9797273.0,0.0,22.7,Yes,No
 Albania,105.0,11.78,119.05,1.4,15278077447.0,107.0,55.0,78.5,36.6,12.33,1747593.0,5.0,21.9,Yes,Yes
 Algeria,18.0,24.28,151.36,2.0,169988236398.0,109.9,51.4,76.7,66.1,11.7,31510100.0,0.5,21.2,Yes,Yes
@@ -54,7 +53,7 @@ Iceland,3.0,12.0,129.0,3.0,24188035739.0,100.4,71.8,82.7,31.9,2.84,339110.0,8.2,
 India,464.0,17.86,180.44,7.7,2611000000000.0,113.0,28.1,69.4,49.7,5.36,471031528.0,4.5,24.3,Yes,Yes
 Indonesia,151.0,18.07,151.18,3.0,1119190780753.0,106.4,36.3,71.5,30.1,4.69,151509724.0,0.1,38.2,Yes,Yes
 Iraq,93.0,29.08,119.86,0.4,234094042939.0,108.7,16.2,70.5,30.8,12.82,27783368.0,0.6,19.2,Yes,No
-Israel,400.0,20.8,108.15,0.8,395098666122.0,104.9,63.4,82.8,25.3,3.86,8374393.0,3.1,20.4,. . .,Yes
+Israel,400.0,20.8,108.15,0.8,395098666122.0,104.9,63.4,82.8,25.3,3.86,8374393.0,3.1,20.4,Yes,Yes
 Italy,206.0,7.3,110.62,0.6,2001244392042.0,101.9,61.9,82.9,59.1,9.89,42651966.0,8.3,22.4,Yes,Yes
 Jamaica,273.0,16.1,162.47,3.9,16458071068.0,91.0,27.1,74.4,35.1,8.0,1650594.0,3.9,9.7,Yes,No
 Japan,347.0,7.4,105.48,0.5,5081769542380.0,98.8,63.2,84.2,46.7,2.29,115782416.0,6.3,19.2,Yes,Yes
